@@ -15,38 +15,15 @@ class App extends Component {
     this.state = {
       toggle: false
     }
-
-    this.handleClick = this.handleClick.bind(this);
-  }
-
-  handleClick(event) {
-    if (this.state.toggle) {
-      return;
-    }
-
-    this.setState({
-      toggle: true
-    });
-
   }
 
   render() {
-
-    var blockolonyMain = this.state.toggle ? 'blockolony-main-end' : 'blockolony-main-start';
-    blockolonyMain += " blockolony-main";
-
-    var blockolonyNav = this.state.toggle ? 'blockolony-nav-end' : 'blockolony-nav-start';
-    blockolonyNav += " blockolony-nav list-inline";
-
-    var blockolonyLogo = this.state.toggle ? 'blockolony-logo-end' : 'blockolony-logo-start';
-    blockolonyLogo += " blockolony-logo";
-
     return (
       <div className="container blockolony-app">
-        <div className={blockolonyMain}>
-          <img src={logo} className={blockolonyLogo} alt="logo" onClick={this.handleClick} />
+        <div className="blockolony-main">
+          <img src={logo} className="blockolony-logo" alt="logo" />
           <h1 className="blockolony-title">Blockolony</h1>
-          <ul className={blockolonyNav}>
+          <ul className="blockolony-nav list-inline">
             <li className="list-inline-item"><a href="https://www.facebook.com/blockolony/"><FontAwesomeIcon icon={faFacebook}/></a></li>
             <li className="list-inline-item"><a href="https://instagram.com/blockolony"><FontAwesomeIcon icon={faInstagram}/></a></li>
             <li className="list-inline-item"><a href="https://www.meetup.com/members/253224515/"><FontAwesomeIcon icon={faMeetup}/></a></li>

@@ -8,28 +8,26 @@ body {
 
 .blockolony-main {
   background-color: transparent;
+  color: #354a9f;
   height: 200px;
   padding: 20px;
   text-align: center;
-  transition: 0.8s all ease;
-  -webkit-transition: 0.8s all ease;
-  -moz-transition: 0.8s all ease;
-  -ms-transition: 0.8s all ease;
-  -o-transition: 0.8s all ease;
   position: absolute;
   margin: auto;
-  /* Fade In */
-  animation-name: fadeIn;
-  animation-duration: 2s;
-  -webkit-animation-name: fadeIn;
-  -webkit-animation-duration: 2s;
-  -moz-animation-name: fadeIn;
-  -moz-animation-duration: 2s;
-  -ms-animation-name: fadeIn;
-  -ms-animation-duration: 2s;
-  -o-animation-name: fadeIn;
-  -o-animation-duration: 2s;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  animation: fadeIn 2s ease-out forwards, moveUp 1.5s 2s 1 ease-out forwards;
+  -webkit-animation: fadeIn 2s ease-out forwards, moveUp 1.5s 2s 1 ease-out forwards;
+  -moz-animation: fadeIn 2s ease-out forwards, moveUp 1.5s 2s 1 ease-out forwards;
+  -ms-animation: fadeIn 2s ease-out forwards, moveUp 1.5s 2s 1 ease-out forwards;
+  -o-animation: fadeIn 2s ease-out forwards, moveUp 1.5s 2s 1 ease-out forwards;
 }
+
+/*
+Main Fade In
+ */
 
 @keyframes fadeIn {
   from {opacity: 0;}
@@ -52,6 +50,31 @@ body {
   to {opacity: 1;}
 }
 
+/*
+Main Move Up
+ */
+
+@keyframes moveUp {
+  from {color: #354a9f;}
+  to {color: white;bottom: 10%;}
+}
+@-webkit-keyframes moveUp {
+  from {color: #354a9f;}
+  to {color: white;bottom: 10%;}
+}
+@-moz-keyframes moveUp {
+  from {color: #354a9f;}
+  to {color: white;bottom: 10%;}
+}
+@-ms-keyframes moveUp {
+  from {color: #354a9f;}
+  to {color: white;bottom: 10%;}
+}
+@-o-keyframes moveUp {
+  from {color: #354a9f;}
+  to {color: white;bottom: 10%;}
+}
+
 .blockolony-nav {
   transition: 0.4s all ease;
   -webkit-transition: 0.4s all ease;
@@ -71,40 +94,4 @@ body {
   -moz-user-select: none;
   -ms-user-select: none;
   -o-user-select: none;
-}
-
-.blockolony-intro {
-  font-size: large;
-}
-
-/*
-Before Click
- */
-
-.blockolony-main-start {
-  color: #354a9f;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-}
-
-.blockolony-logo-start {
-  cursor: pointer;
-}
-
-/*
-After Click
- */
-
-.blockolony-main-end {
-  color: white;
-  top: 0;
-  left: 0;
-  bottom: 10%;
-  right: 0;
-}
-
-.blockolony-logo-end {
-  cursor: auto;
 }
