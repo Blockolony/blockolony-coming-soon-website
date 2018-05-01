@@ -1,0 +1,110 @@
+body {
+  background-color: #354a9f;
+}
+
+.blockolony-logo {
+  height: 100px;
+}
+
+.blockolony-main {
+  background-color: transparent;
+  height: 200px;
+  padding: 20px;
+  text-align: center;
+  transition: 0.8s all ease;
+  -webkit-transition: 0.8s all ease;
+  -moz-transition: 0.8s all ease;
+  -ms-transition: 0.8s all ease;
+  -o-transition: 0.8s all ease;
+  position: absolute;
+  margin: auto;
+  /* Fade In */
+  animation-name: fadeIn;
+  animation-duration: 2s;
+  -webkit-animation-name: fadeIn;
+  -webkit-animation-duration: 2s;
+  -moz-animation-name: fadeIn;
+  -moz-animation-duration: 2s;
+  -ms-animation-name: fadeIn;
+  -ms-animation-duration: 2s;
+  -o-animation-name: fadeIn;
+  -o-animation-duration: 2s;
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+@-moz-keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+@-ms-keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+@-o-keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+.blockolony-nav {
+  transition: 0.4s all ease;
+  -webkit-transition: 0.4s all ease;
+  -moz-transition: 0.4s all ease;
+  -o-transition: 0.4s all ease;
+  margin-right: 5px;
+}
+
+.blockolony-nav a {
+  color: inherit;
+}
+
+.blockolony-title {
+  font-size: 60px;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+}
+
+.blockolony-intro {
+  font-size: large;
+}
+
+/*
+Before Click
+ */
+
+.blockolony-main-start {
+  color: #354a9f;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.blockolony-logo-start {
+  cursor: pointer;
+}
+
+/*
+After Click
+ */
+
+.blockolony-main-end {
+  color: white;
+  top: 0;
+  left: 0;
+  bottom: 10%;
+  right: 0;
+}
+
+.blockolony-logo-end {
+  cursor: auto;
+}
