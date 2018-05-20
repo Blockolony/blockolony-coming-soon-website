@@ -30,7 +30,7 @@ class App extends Component {
             <li className="list-inline-item"><a href="https://www.meetup.com/members/253224515/"><FontAwesomeIcon icon={faMeetup}/></a></li>
             <li className="list-inline-item"><a href="https://blockolony.slack.com/"><FontAwesomeIcon icon={faSlack}/></a></li>
             <li className="list-inline-item">&#8729;</li>
-            <li className="list-inline-item"><a href="mailto:blockolony@outlook.com"><FontAwesomeIcon icon={faMail}/></a></li>
+            <li className="list-inline-item"><a href="mailto:info@blockolony.com"><FontAwesomeIcon icon={faMail}/></a></li>
           </ul>
         </div>
       </div>
