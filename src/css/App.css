@@ -2,6 +2,10 @@ body {
   background-color: #354a9f;
 }
 
+body,html {
+  transition: all 0.2s ease;
+}
+
 .white-background {
   background-color: white !important;
 }
@@ -92,10 +96,6 @@ Main Move Up
 }
 
 #blockolony-nav {
-  transition: 0.4s all ease;
-  -webkit-transition: 0.4s all ease;
-  -moz-transition: 0.4s all ease;
-  -o-transition: 0.4s all ease;
   margin-right: 5px;
 }
 

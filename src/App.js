@@ -30,10 +30,10 @@ class App extends Component {
 
   render() {
 
-    let mainClass = this.state.toggle ? 'white-background' : 'blue-background';
+    let bodyClass = this.state.toggle ? 'white-background' : 'blue-background';
     document.body.classList.remove('white-background');
     document.body.classList.remove('blue-background');
-    document.body.classList.add(mainClass);
+    document.body.classList.add(bodyClass);
     let textClass = this.state.toggle ? 'blue-text' : 'white-text';
     let navClass = 'list-inline';
     let logoCol = this.state.toggle ? '#354a9f' : 'white';
@@ -41,7 +41,7 @@ class App extends Component {
     return (
       <div className="container blockolony-app">
         <Switch handleChange={this.toggleMode} checked={this.state.toggle}/>
-        <div id="blockolony-main" className={mainClass}>
+        <div id="blockolony-main">
           <Logo color={logoCol}/>
           <h1 id="blockolony-title" className={textClass}>Blockolony</h1>
           <ul id="blockolony-nav" className={navClass}>
