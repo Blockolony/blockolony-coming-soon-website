@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import whiteLogo from './assets/whiteLogo.svg';
-import blueLogo from './assets/blueLogo.svg';
 import './css/App.css';
+
 import Switch from './components/Switch.js';
+import Logo from './components/Logo.js';
 
 import FontAwesomeIcon from '@fortawesome/react-fontawesome';
 import faInstagram from '@fortawesome/fontawesome-free-brands/faInstagram';
@@ -36,13 +36,13 @@ class App extends Component {
     document.body.classList.add(mainClass);
     let textClass = this.state.toggle ? 'blue-text' : 'white-text';
     let navClass = 'list-inline';
-    let logoSrc = this.state.toggle ? blueLogo : whiteLogo;
+    let logoCol = this.state.toggle ? '#354a9f' : 'white';
 
     return (
       <div className="container blockolony-app">
         <Switch handleChange={this.toggleMode} checked={this.state.toggle}/>
         <div id="blockolony-main" className={mainClass}>
-          <img src={logoSrc} className="blockolony-logo" alt="logo"></img>
+          <Logo color={logoCol}/>
           <h1 id="blockolony-title" className={textClass}>Blockolony</h1>
           <ul id="blockolony-nav" className={navClass}>
             <li className="list-inline-item"><a className={textClass} href="https://www.facebook.com/blockolony/"><FontAwesomeIcon icon={faFacebook}/></a></li>
