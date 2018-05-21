@@ -3,7 +3,7 @@ body {
 }
 
 body,html {
-  transition: all 0.2s ease;
+  transition: background-color 0.1s, color 0.1s;
 }
 
 .white-background {
