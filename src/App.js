@@ -7,7 +7,7 @@ import Logo from './components/Logo.js';
 import FontAwesomeIcon from '@fortawesome/react-fontawesome';
 import faInstagram from '@fortawesome/fontawesome-free-brands/faInstagram';
 import faFacebook from '@fortawesome/fontawesome-free-brands/faFacebook';
-import faMeetup from '@fortawesome/fontawesome-free-brands/faMeetup';
+import faTelegram from '@fortawesome/fontawesome-free-brands/faTelegramPlane';
 import faMail from '@fortawesome/fontawesome-free-solid/faEnvelope';
 
 class App extends Component {
@@ -46,7 +46,7 @@ class App extends Component {
           <ul id="blockolony-nav" className={navClass}>
             <li className="list-inline-item"><a className={textClass} href="https://www.facebook.com/blockolony/"><FontAwesomeIcon icon={faFacebook}/></a></li>
             <li className="list-inline-item"><a className={textClass} href="https://instagram.com/blockolony/"><FontAwesomeIcon icon={faInstagram}/></a></li>
-            <li className="list-inline-item"><a className={textClass} href="https://www.meetup.com/members/253224515/"><FontAwesomeIcon icon={faMeetup}/></a></li>
+            <li className="list-inline-item"><a className={textClass} href="https://t.me/blockolony"><FontAwesomeIcon icon={faTelegram}/></a></li>
             <li className="list-inline-item"><span className={textClass}>&#8729;</span></li>
             <li className="list-inline-item"><a className={textClass} href="mailto:info@blockolony.com"><FontAwesomeIcon icon={faMail}/></a></li>
           </ul>
