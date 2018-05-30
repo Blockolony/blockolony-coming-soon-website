@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Space+Mono');
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 200px;
+}
+
+.App-header {
+  background-color: transparent;
+  height: 450px;
+  padding: 20px;
+  color: #354A9F;
+  margin: 0 auto;
+}
+
+.App-title {
+  font-size: 6.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.App-about {
+  background-color: #354A9F;
+  color: white;
+  padding: 50px;
+}
+
+.App-about h1, .App-about h2, .App-about p {
+  font-weight: 100;
+}
+
+.App-about h2 {
+  border-bottom: solid 4px white;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.App-about svg {
+  display: block;
+  font-size: 60px;
+}
+
+.App-about-element {
+  padding-right: 80px;
+  padding-left: 80px;
+}
+
+/*
+Colour Scheme
+ */
+
+.blue {
+  color: #354A9F;
+  background-color: #354A9F;
+}
+
+.grey {
+  color: #253237;
+  background-color: #253237;
+}
+
+.white {
+  color: #EDF2F4;
+  background-color: #EDF2F4;
+}
+
+/*
+Mobile
+ */
+
+ @media(max-width:576px) {
+   .App-title {
+     font-size: 4.5em;
+   }
+
+   .App-about-element {
+     padding-right: 20px;
+     padding-left: 20px;
+   }
+ }
