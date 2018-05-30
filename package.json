@@ -7,10 +7,12 @@
     "@fortawesome/fontawesome-free-brands": "^5.0.13",
     "@fortawesome/fontawesome-free-solid": "^5.0.13",
     "@fortawesome/react-fontawesome": "^0.0.20",
+    "google-map-react": "^1.0.3",
     "react": "^16.4.0",
     "react-bootstrap": "^0.32.1",
     "react-dom": "^16.4.0",
-    "react-scripts": "1.1.4"
+    "react-scripts": "1.1.4",
+    "react-simple-maps": "^0.12.1"
   },
   "scripts": {
     "start": "react-scripts start",

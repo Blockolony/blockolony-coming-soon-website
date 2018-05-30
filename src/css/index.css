@@ -5,6 +5,14 @@ body {
   background-image: url('../assets/tile.png');
 }
 
+body, html {
+  overflow-x: hidden;
+}
+
+h1 {
+  font-weight: 100;
+}
+
 p {
   font-weight: 100;
 }
@@ -14,6 +22,10 @@ p {
   margin: 0;
   padding: 0;
 }
+
+/*
+Margin-top
+ */
 
 .mt-10 {
   margin-top: 10px;
@@ -34,6 +46,14 @@ p {
 .mt-50 {
   margin-top: 50px;
 }
+
+.mt-100 {
+  margin-top: 100px;
+}
+
+/*
+Padding-top
+ */
 
 .pt-20 {
   padding-top: 20px;

@@ -13,13 +13,13 @@ class Footer extends Component {
       <footer>
         <div className="row">
           <div className="col-sm-4 pt-40">
-            <a href="https://www.facebook.com/blockolony" className="vertical">
+            <a href="#events" className="vertical">
               Events
             </a>
-            <a href="https://instagram.com/blockolony" className="vertical">
+            <a href="#about" className="vertical">
               About
             </a>
-            <a href="https://t.me/blockolony" className="vertical">
+            <a href="#contact" className="vertical">
               Contact
             </a>
           </div>

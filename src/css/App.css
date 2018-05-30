@@ -18,11 +18,16 @@
 
 .App-title {
   font-size: 6.5em;
+  font-weight: 400;
 }
 
 .App-intro {
   font-size: large;
 }
+
+/*
+About
+ */
 
 .App-about {
   border-top-left-radius: 300px;
@@ -58,6 +63,59 @@
 }
 
 /*
+Past event & collabs
+ */
+
+.App-next {
+  background-color: #FCFCFC;
+  color: #354A9F;
+  height: auto;
+  padding-bottom: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.App-next p {
+  max-width: 300px;
+}
+
+.App-next .event-info {
+  display: inline-block;
+}
+
+.collabs img {
+  max-width: 100%;
+  width: 300px;
+  display: block;
+}
+
+/*
+Map
+ */
+
+.App-map {
+  background-color: #354A9F;
+  color: white;
+  padding-bottom: 40px;
+}
+
+.App-map h2 {
+  font-family: 'Space Mono', monospace;
+  padding-bottom: 20px;
+}
+
+.App-map p {
+  font-size: 18px;
+  line-height: 20px;
+}
+
+.App-map svg {
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 5px;
+}
+
+/*
 Colour Scheme
  */
 
@@ -72,8 +130,8 @@ Colour Scheme
 }
 
 .white {
-  color: #EDF2F4;
-  background-color: #EDF2F4;
+  color: #FCFCFC;
+  background-color: #FCFCFC;
 }
 
 /*
