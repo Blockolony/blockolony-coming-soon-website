@@ -24,7 +24,7 @@ class Footer extends Component {
             </a>
           </div>
           <div className="col-sm-4">
-            <img src={whiteLogo}/>
+            <img src={whiteLogo} alt=""/>
             <h1>Blockolony</h1>
             <p>is a registered company in the UK</p>
           </div>

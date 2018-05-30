@@ -8,12 +8,6 @@ footer img {
   height: 50px;
 }
 
-footer a {
-  color: white;
-  font-size: 40px;
-  padding: 10px;
-}
-
 footer h1 {
   font-size: 20px;
   margin-top: 10px;
@@ -23,8 +17,12 @@ footer .vertical {
   font-size: 16px;
 }
 
+footer p {
+  font-family: 'Work Sans', sans-serif;
+}
 
 footer a {
+  font-family: 'Work Sans', sans-serif;
   color: white;
   transition: all 0.1s ease;
   -webkit-transition: all 0.1s ease;
@@ -34,6 +32,8 @@ footer a {
   border-bottom-width: 0px;
   margin-left: 5px;
   margin-right: 5px;
+  font-size: 40px;
+  padding: 10px;
 }
 
 footer a:hover {

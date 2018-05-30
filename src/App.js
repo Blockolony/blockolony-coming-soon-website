@@ -51,6 +51,9 @@ class App extends Component {
               </div>
             </div>
           </section>
+          <section className="App-map">
+            
+          </section>
         </div>
         <Footer/>
       </div>
