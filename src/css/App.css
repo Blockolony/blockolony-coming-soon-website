@@ -9,7 +9,6 @@
 }
 
 .App-header {
-  background-color: transparent;
   height: 450px;
   padding: 20px;
   color: #354A9F;
@@ -25,6 +24,8 @@
 }
 
 .App-about {
+  border-top-left-radius: 300px;
+  border-top-right-radius: 300px;
   background-color: #354A9F;
   color: white;
   padding: 50px;

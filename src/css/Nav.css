@@ -2,7 +2,7 @@
   border-radius: 0;
   min-height: 80px;
   padding-top: 13px;
-  background-color: transparent;
+  background-color: white;
   border: none;
   border-bottom: solid 2px #354A9F;
   padding-left: 50px;
@@ -24,6 +24,9 @@
   color: #354A9F;
   margin-top: 2px;
   transition: all 0.1s ease;
+  -webkit-transition: all 0.1s ease;
+  -moz-transition: all 0.1s ease;
+  -o-transition: all 0.1s ease;
 }
 
 .navbar-inverse .navbar-nav>li>a {

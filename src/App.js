@@ -4,6 +4,7 @@ import './css/App.css';
 
 import Nav from './components/Navigation.js';
 import Lorem from './components/Lorem.js';
+import Footer from './components/Footer.js';
 
 import FontAwesomeIcon from '@fortawesome/react-fontawesome';
 import faHandshake from '@fortawesome/fontawesome-free-solid/faHandshake';
@@ -28,7 +29,7 @@ class App extends Component {
           </section>
           <section className="App-about">
             <div className="row">
-              <div className="col-md-12">
+              <div className="col-md-12 pt-40">
                 <h1>A global hub for the blockchain community</h1>
               </div>
             </div>
@@ -51,6 +52,7 @@ class App extends Component {
             </div>
           </section>
         </div>
+        <Footer/>
       </div>
     );
   }
