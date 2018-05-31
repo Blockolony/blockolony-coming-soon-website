@@ -12,7 +12,7 @@ class Footer extends Component {
     return(
       <footer>
         <div className="row">
-          <div className="col-sm-4 pt-40">
+          <div className="col-sm-4 sub-nav pt-40">
             <a href="#events">
               Events
             </a>

@@ -32,6 +32,11 @@ footer a {
   padding: 10px;
 }
 
+footer .sub-nav a {
+  margin-left: 0;
+  margin-right: 0;
+}
+
 footer .social {
   font-size: 40px;
 }
