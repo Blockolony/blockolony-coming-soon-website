@@ -83,10 +83,19 @@ Past event & collabs
   display: inline-block;
 }
 
+.collabs {
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
 .collabs img {
   max-width: 100%;
   width: 300px;
   display: block;
+}
+
+.collabs .row {
+  padding-top:50px;
 }
 
 /*
@@ -146,5 +155,14 @@ Mobile
    .App-about-element {
      padding-right: 20px;
      padding-left: 20px;
+   }
+
+   .collabs {
+     padding-left: 20px;
+     padding-right: 20px;
+   }
+
+   .collabs .row {
+     padding-top:0;
    }
  }

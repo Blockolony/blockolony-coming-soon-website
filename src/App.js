@@ -68,9 +68,51 @@ class App extends Component {
                 date="21st May 2018"/>
               </div>
               <div className="col-lg-6 collabs">
-                <h1>Past collaborations</h1>
-                <img src={uniLogo} alt="" className="img-responsive center-block mt-100"/>
-                <img src={unionLogo} alt="" className="img-responsive center-block mt-100"/>
+                <h1>Partners</h1>
+                <div className="row mt-10">
+                  <div className="col-xs-4 pt-20">
+                    <img src={unionLogo} alt="" className="img-responsive center-block"/>
+                  </div>
+                  <div className="col-xs-4 pt-20">
+                    <img src={unionLogo} alt="" className="img-responsive center-block"/>
+                  </div>
+                  <div className="col-xs-4 pt-20">
+                    <img src={unionLogo} alt="" className="img-responsive center-block"/>
+                  </div>
+                </div>
+                <div className="row">
+                  <div className="col-xs-4 pt-20">
+                    <img src={unionLogo} alt="" className="img-responsive center-block"/>
+                  </div>
+                  <div className="col-xs-4 pt-20">
+                    <img src={unionLogo} alt="" className="img-responsive center-block"/>
+                  </div>
+                  <div className="col-xs-4 pt-20">
+                    <img src={unionLogo} alt="" className="img-responsive center-block"/>
+                  </div>
+                </div>
+                <div className="row">
+                  <div className="col-xs-4 pt-20">
+                    <img src={unionLogo} alt="" className="img-responsive center-block"/>
+                  </div>
+                  <div className="col-xs-4 pt-20">
+                    <img src={unionLogo} alt="" className="img-responsive center-block"/>
+                  </div>
+                  <div className="col-xs-4 pt-20">
+                    <img src={unionLogo} alt="" className="img-responsive center-block"/>
+                  </div>
+                </div>
+                <div className="row">
+                  <div className="col-xs-4 pt-20">
+                    <img src={unionLogo} alt="" className="img-responsive center-block"/>
+                  </div>
+                  <div className="col-xs-4 pt-20">
+                    <img src={unionLogo} alt="" className="img-responsive center-block"/>
+                  </div>
+                  <div className="col-xs-4 pt-20">
+                    <img src={unionLogo} alt="" className="img-responsive center-block"/>
+                  </div>
+                </div>
               </div>
             </div>
           </section>
