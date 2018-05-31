@@ -13,13 +13,16 @@ class Footer extends Component {
       <footer>
         <div className="row">
           <div className="col-sm-4 pt-40">
-            <a href="#events" className="vertical">
+            <a href="#events">
               Events
             </a>
-            <a href="#about" className="vertical">
+            <a href="#resources">
+              Resources
+            </a>
+            <a href="#about">
               About
             </a>
-            <a href="#contact" className="vertical">
+            <a href="#contact">
               Contact
             </a>
           </div>
@@ -28,7 +31,7 @@ class Footer extends Component {
             <h1>Blockolony</h1>
             <p>is a registered company in the UK</p>
           </div>
-          <div className="col-sm-4 pt-30">
+          <div className="col-sm-4 social pt-30">
             <a href="https://www.facebook.com/blockolony">
               <FontAwesomeIcon icon={faFacebook}/>
             </a>

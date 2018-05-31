@@ -25,10 +25,13 @@ class Navigation extends Component {
             <NavItem eventKey={1} href="#events">
               Events
             </NavItem>
-            <NavItem eventKey={2} href="#about">
+            <NavItem eventKey={2} href="#events">
+              Resources
+            </NavItem>
+            <NavItem eventKey={3} href="#about">
               About
             </NavItem>
-            <NavItem eventKey={3} href="#contact">
+            <NavItem eventKey={4} href="#contact">
               Contact
             </NavItem>
           </Nav>

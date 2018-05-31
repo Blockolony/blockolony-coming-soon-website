@@ -43,17 +43,26 @@ class App extends Component {
               <div className="col-md-4 App-about-element mt-50">
                 <FontAwesomeIcon icon={faHandshake} className="center-block"/>
                 <h2>Networking</h2>
-                <Lorem/>
+                <p>
+                  Meet industry professionals, investors, developers and
+                  enthusiasts at one of our local networking events near you.
+                </p>
               </div>
               <div className="col-md-4 App-about-element mt-50">
                 <FontAwesomeIcon icon={faWrench} className="center-block"/>
                 <h2>Workshops</h2>
-                <Lorem/>
+                <p>
+                  Develop your skills with our workshops and online resources
+                  taught by highly skilled experts within the blockchain space.
+                </p>
               </div>
               <div className="col-md-4 App-about-element mt-50">
                 <FontAwesomeIcon icon={faMicrophoneAlt} className="center-block"/>
                 <h2>Seminars</h2>
-                <Lorem/>
+                <p>
+                  Learn from the most knowledgable speakers in the world and
+                  connect with them through our seminars and lectures.
+                </p>
               </div>
             </div>
           </section>
@@ -123,10 +132,15 @@ class App extends Component {
               </div>
             </div>
             <div className="row pt-30">
-              <div className="col-lg-4 pt-20">
+              <div className="col-sm-4 pt-20">
                 <h2>UK & Europe</h2>
                 <p>
-                  St Andrews<br/>
+                  Aberdeen<br/>
+                  <FontAwesomeIcon icon={faTelegram}/>
+                  <FontAwesomeIcon icon={faEnvelope}/>
+                </p>
+                <p>
+                  Dundee<br/>
                   <FontAwesomeIcon icon={faTelegram}/>
                   <FontAwesomeIcon icon={faEnvelope}/>
                 </p>
@@ -135,8 +149,13 @@ class App extends Component {
                   <FontAwesomeIcon icon={faTelegram}/>
                   <FontAwesomeIcon icon={faEnvelope}/>
                 </p>
+                <p>
+                  St Andrews<br/>
+                  <FontAwesomeIcon icon={faTelegram}/>
+                  <FontAwesomeIcon icon={faEnvelope}/>
+                </p>
               </div>
-              <div className="col-lg-4 pt-20">
+              <div className="col-sm-4 pt-20">
                 <h2>North America</h2>
                 <p>
                   New York<br/>
@@ -144,10 +163,10 @@ class App extends Component {
                   <FontAwesomeIcon icon={faEnvelope}/>
                 </p>
               </div>
-              <div className="col-lg-4 pt-20">
+              <div className="col-sm-4 pt-20">
                 <h2>Asia</h2>
                 <p>
-                  Delhi<br/>
+                  New Delhi<br/>
                   <FontAwesomeIcon icon={faTelegram}/>
                   <FontAwesomeIcon icon={faEnvelope}/>
                 </p>

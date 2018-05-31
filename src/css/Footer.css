@@ -14,10 +14,6 @@ footer h1 {
   font-weight: 400;
 }
 
-footer .vertical {
-  font-size: 16px;
-}
-
 footer p {
   font-family: 'Work Sans', sans-serif;
 }
@@ -33,8 +29,11 @@ footer a {
   border-bottom-width: 0px;
   margin-left: 5px;
   margin-right: 5px;
-  font-size: 40px;
   padding: 10px;
+}
+
+footer .social {
+  font-size: 40px;
 }
 
 footer a:hover {
