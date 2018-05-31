@@ -6,18 +6,18 @@
 }
 
 .App-logo {
-  height: 200px;
+  height: 160px;
 }
 
 .App-header {
-  height: 450px;
-  padding: 20px;
+  height: 350px;
+  padding: 1px;
   color: #354A9F;
   margin: 0 auto;
 }
 
 .App-title {
-  font-size: 6.5em;
+  font-size: 5.5em;
   font-weight: 400;
 }
 

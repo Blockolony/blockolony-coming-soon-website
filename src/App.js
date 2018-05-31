@@ -36,7 +36,7 @@ class App extends Component {
           <section className="App-about">
             <div className="row">
               <div className="col-md-12 pt-40">
-                <h1>A global hub for the blockchain community</h1>
+                <h1>The global hub of the blockchain community</h1>
               </div>
             </div>
             <div className="row">
