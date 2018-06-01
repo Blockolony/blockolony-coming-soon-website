@@ -30,7 +30,7 @@ class Home extends Component {
         </section>
         <section className="App-about">
           <div className="row">
-            <div className="col-md-12 pt-40">
+            <div className="col-md-12 pt-40 slogan">
               <h1>The global hub of the blockchain community</h1>
             </div>
           </div>

@@ -34,7 +34,12 @@ About
   border-top-right-radius: 300px;
   background-color: #354A9F;
   color: white;
-  padding: 50px;
+  padding: 0px 50px 50px 50px;
+}
+
+.App-about .slogan {
+  padding-left: 75px;
+  padding-right: 75px;
 }
 
 .App-about h1, .App-about h2, .App-about p {
@@ -50,6 +55,7 @@ About
 .App-about p {
   font-family: 'Work Sans', sans-serif;
   font-weight: 300;
+  line-height: 19px;
 }
 
 .App-about svg {
@@ -165,5 +171,10 @@ Mobile
 
    .collabs .row {
      padding-top:0;
+   }
+
+   .App-about .slogan {
+     padding-left: 15px;
+     padding-right: 15px;
    }
  }
