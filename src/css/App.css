@@ -114,14 +114,15 @@ Map
 }
 
 .App-map p {
-  font-size: 18px;
-  line-height: 20px;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 16px;
+  line-height: 16px;
 }
 
 .App-map svg {
   margin-left: 5px;
   margin-right: 5px;
-  margin-top: 5px;
+  margin-top: 2px;
 }
 
 /*

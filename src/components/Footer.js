@@ -13,16 +13,16 @@ class Footer extends Component {
       <footer>
         <div className="row">
           <div className="col-sm-4 sub-nav pt-40">
-            <a href="#events">
+            <a href="/events">
               Events
             </a>
-            <a href="#resources">
+            <a href="/resources">
               Resources
             </a>
-            <a href="#about">
+            <a href="/about">
               About
             </a>
-            <a href="#contact">
+            <a href="/contact">
               Contact
             </a>
           </div>

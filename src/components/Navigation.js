@@ -16,22 +16,22 @@ class Navigation extends Component {
       <Navbar inverse collapseOnSelect>
         <Navbar.Header>
           <Navbar.Brand>
-            <a href="#brand">Blockolony</a>
+            <a href="/">Blockolony</a>
           </Navbar.Brand>
           <Navbar.Toggle />
         </Navbar.Header>
         <Navbar.Collapse>
           <Nav>
-            <NavItem eventKey={1} href="#events">
+            <NavItem href="/events">
               Events
             </NavItem>
-            <NavItem eventKey={2} href="#events">
+            <NavItem href="/resources">
               Resources
             </NavItem>
-            <NavItem eventKey={3} href="#about">
+            <NavItem href="/about">
               About
             </NavItem>
-            <NavItem eventKey={4} href="#contact">
+            <NavItem href="/contact">
               Contact
             </NavItem>
           </Nav>
