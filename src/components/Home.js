@@ -1,11 +1,10 @@
 import React, { Component } from 'react';
 import blueLogo from '../assets/blueLogo.svg';
-import eventPhoto from '../assets/event_test.jpg';
 import uniLogo from '../assets/uni_logo_trans.png';
 import unionLogo from '../assets/union_logo_trans.png';
 import '../css/App.css';
 
-import Event from './Event.js';
+import EventSlider from './EventSlider.js';
 
 import FontAwesomeIcon from '@fortawesome/react-fontawesome';
 import faHandshake from '@fortawesome/fontawesome-free-solid/faHandshake';
@@ -64,12 +63,8 @@ class Home extends Component {
         <section className="App-next">
           <div className="row pt-40">
             <div className="col-lg-6 event">
-              <h1>Last event</h1>
-              <Event src={eventPhoto} title="St Andrews Blockchain Meetup"
-              info="Come to our first ever local meetup in St Andrews"
-              location="St Andrews Brew Co."
-              time="18:00 - 21:00"
-              date="21st May 2018"/>
+              <h1>Upcoming Events</h1>
+              <EventSlider/>
             </div>
             <div className="col-lg-6 collabs">
               <h1>Partners</h1>
