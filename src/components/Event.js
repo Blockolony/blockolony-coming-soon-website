@@ -9,6 +9,41 @@ import faClock from '@fortawesome/fontawesome-free-solid/faClock';
 import faCalendar from '@fortawesome/fontawesome-free-solid/faCalendar';
 
 class Event extends Component {
+
+  location() {
+    if (!this.props.location) return;
+
+    return(
+      <p>
+        <FontAwesomeIcon icon={faLocationArrow}/>
+        {this.props.location}
+      </p>
+    );
+  }
+
+  time() {
+    if (!this.props.time) return;
+
+    return(
+      <p>
+        <FontAwesomeIcon icon={faClock}/>
+        {this.props.time}
+      </p>
+    );
+  }
+
+  date() {
+
+    if (!this.props.date) return;
+
+    return(
+      <p>
+        <FontAwesomeIcon icon={faCalendar}/>
+        {this.props.date}
+      </p>
+    );
+  }
+
   render() {
     return(
       <Panel>
@@ -18,18 +53,9 @@ class Event extends Component {
         <Panel.Body>
           <h2>{this.props.title}</h2>
           <p className="event-info">{this.props.info}</p>
-          <p>
-            <FontAwesomeIcon icon={faLocationArrow}/>
-            {this.props.location}
-          </p>
-          <p>
-            <FontAwesomeIcon icon={faClock}/>
-            {this.props.time}
-          </p>
-          <p>
-            <FontAwesomeIcon icon={faCalendar}/>
-            {this.props.date}
-          </p>
+          {this.location()}
+          {this.time()}
+          {this.date()}
         </Panel.Body>
       </Panel>
     )
