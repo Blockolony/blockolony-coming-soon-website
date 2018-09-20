@@ -6,7 +6,7 @@ import Logo from './components/Logo.js';
 
 import FontAwesomeIcon from '@fortawesome/react-fontawesome';
 import faInstagram from '@fortawesome/fontawesome-free-brands/faInstagram';
-import faFacebook from '@fortawesome/fontawesome-free-brands/faFacebook';
+import faTwitter from '@fortawesome/fontawesome-free-brands/faTwitter';
 import faTelegram from '@fortawesome/fontawesome-free-brands/faTelegramPlane';
 import faMail from '@fortawesome/fontawesome-free-solid/faEnvelope';
 
@@ -44,7 +44,7 @@ class App extends Component {
           <Logo color={logoCol}/>
           <h1 id="blockolony-title" className={textClass}>Blockolony</h1>
           <ul id="blockolony-nav" className={navClass}>
-            <li className="list-inline-item"><a className={textClass} href="https://www.facebook.com/blockolony/"><FontAwesomeIcon icon={faFacebook}/></a></li>
+            <li className="list-inline-item"><a className={textClass} href="https://www.twitter.com/blockolony/"><FontAwesomeIcon icon={faTwitter}/></a></li>
             <li className="list-inline-item"><a className={textClass} href="https://instagram.com/blockolony/"><FontAwesomeIcon icon={faInstagram}/></a></li>
             <li className="list-inline-item"><a className={textClass} href="https://t.me/blockolony"><FontAwesomeIcon icon={faTelegram}/></a></li>
             <li className="list-inline-item"><span className={textClass}>&#8729;</span></li>
